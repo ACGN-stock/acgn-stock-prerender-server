@@ -1,0 +1,11 @@
+{
+  "name": "prerender-server",
+  "env": {
+    "prerenderServerPort": 3900,
+    "waitAfterLastRequest": 3000
+  },
+  "script": "index.js",
+  "exec_mode": "cluster_mode",
+  "instances": 1,
+  "log_date_format": "YYYY-MM-DD HH:mm:ss"
+}
